@@ -68,7 +68,7 @@
 				</div>
 				<hr class="opacity-50" />
 				<footer class="flex justify-end mt-4">
-					<a href="/property-details" class="btn variant-filled-primary">More Info</a>
+					<a href="/property-details/secondSt" class="btn variant-filled-primary">More Info</a>
 				</footer>
 			</div>
 		</div>

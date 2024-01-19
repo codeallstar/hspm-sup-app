@@ -56,19 +56,19 @@
 				</article>
 				<hr class="opacity-50" />
 				<div class="flex justify-between">
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="bed" class="shrink-0 h-4 w-4" />&nbsp; 4 bedrooms
 					</div>
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="bathtub" class="shrink-0 h-4 w-4" />&nbsp;5 bath
 					</div>
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="sleep" class="shrink-0 h-4 w-4" />&nbsp;sleeps 10
 					</div>
 				</div>
 				<hr class="opacity-50" />
 				<footer class="flex justify-end mt-4">
-					<a href="/property-details" class="btn variant-ringed">More Info</a>
+					<a href="/property-details" class="btn variant-filled-primary">More Info</a>
 				</footer>
 			</div>
 		</div>
@@ -87,19 +87,19 @@
 				</article>
 				<hr class="opacity-50" />
 				<div class="flex justify-between">
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="bed" class="shrink-0 h-4 w-4" />&nbsp; 3 bedrooms
 					</div>
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="bathtub" class="shrink-0 h-4 w-4" />&nbsp;5 bath
 					</div>
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="sleep" class="shrink-0 h-4 w-4" />&nbsp;sleeps 8
 					</div>
 				</div>
 				<hr class="opacity-50" />
 				<footer class="flex justify-end mt-4">
-					<a href="/property-details" class="btn variant-ringed">More Info</a>
+					<a href="/property-details" class="btn variant-filled-primary">More Info</a>
 				</footer>
 			</div>
 		</div>
@@ -112,25 +112,25 @@
 				</h2>
 				<article>
 					<p>
-						This Harbor Springs retreat is located just under 3 miles from town right on Lake
-						Michigan. This 3 bedroom 3 bath home has a large living space, with a wood fireplace.
+						This Harbor Springs retreat is located walking distance or bike ride from town and right
+						on Lake Michigan. This home has private lake access and a large private yard.
 					</p>
 				</article>
 				<hr class="opacity-50" />
 				<div class="flex justify-between">
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="bed" class="shrink-0 h-4 w-4" />&nbsp; 3 bedrooms
 					</div>
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="bathtub" class="shrink-0 h-4 w-4" />&nbsp;2 bath
 					</div>
-					<div class="badge variant-filled">
+					<div class="badge variant-filled-secondary">
 						<Icon name="sleep" class="shrink-0 h-4 w-4" />&nbsp;sleeps 6
 					</div>
 				</div>
 				<hr class="opacity-50" />
 				<footer class="flex justify-end mt-4">
-					<a href="/property-details" class="btn variant-ringed">More Info</a>
+					<a href="/property-details" class="btn variant-filled-primary">More Info</a>
 				</footer>
 			</div>
 		</div>

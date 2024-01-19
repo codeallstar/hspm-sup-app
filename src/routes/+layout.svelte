@@ -67,7 +67,7 @@
 				</div>
 			</div>
 			<svelte:fragment slot="trail">
-				<a href="tel:2318815282" class="btn variant-outline-primary"> Call Now! </a>
+				<a href="tel:2318815282" class="btn variant-filled-primary"> Call Now! </a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>

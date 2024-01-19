@@ -36,7 +36,12 @@
 <AppShell slotSidebarLeft="bg-surface-500/5 w-0">
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
-		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+		<AppBar
+			background="bg-surface-300"
+			gridColumns="grid-cols-3"
+			slotDefault="place-self-center"
+			slotTrail="place-content-end"
+		>
 			<svelte:fragment slot="lead">
 				<div class="flex items-center">
 					<button on:click={drawerOpen} class="lg:hidden btn btn-sm mr-4">

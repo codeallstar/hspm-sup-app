@@ -25,7 +25,7 @@
 		drawerStore.open({});
 	}
 	// Logo
-	import logo from '$lib/images/HarborsidePropertyManagement_Logo_Only.png';
+	import logo from '$lib/images/HarborsidePropertyManagement_Logo_CLR.png';
 </script>
 
 <!-- Drawer for small screens -->

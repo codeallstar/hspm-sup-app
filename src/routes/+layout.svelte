@@ -42,6 +42,7 @@
 			gridColumns="grid-cols-3"
 			slotDefault="place-self-center"
 			slotTrail="place-content-end"
+			padding="px-2 py-0"
 		>
 			<svelte:fragment slot="lead">
 				<div class="flex items-center">
@@ -54,7 +55,7 @@
 							</svg>
 						</span>
 					</button>
-					<a href="/"><img src={logo} alt="Harborside Property Management Logo" class="w-20" /></a>
+					<a href="/"><img src={logo} alt="Harborside Property Management Logo" class="w-28" /></a>
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">

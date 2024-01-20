@@ -74,7 +74,7 @@
 						<div class="arrow bg-surface-100-800-token" />
 					</div>
 				</div>
-				<a href="tel:2318815282" class="btn variant-filled-primary"
+				<a href="tel:+12318815282" class="btn variant-filled-primary"
 					><Icon name="phone" class="shrink-0 h-4 w-4" />&nbsp; Call Now!
 				</a>
 			</svelte:fragment>

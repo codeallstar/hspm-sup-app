@@ -26,6 +26,7 @@
 	}
 	// Logo
 	import logo from '$lib/images/HarborsidePropertyManagement_Logo_CLR.png';
+	import { Icon } from 'svelte-materialdesign-icons';
 </script>
 
 <!-- Drawer for small screens -->
@@ -56,23 +57,25 @@
 					<a href="/"><img src={logo} alt="Harborside Property Management Logo" class="w-20" /></a>
 				</div>
 			</svelte:fragment>
-			<div class="relative hidden lg:block">
-				<!-- trigger -->
-				<button
-					class="btn hover:variant-soft-primary"
-					use:popup={{ event: 'click', target: 'features' }}
-				>
-					<span>Explore</span>
-					<i class="fa-solid fa-caret-down opacity-50" />
-				</button>
-				<!-- popup -->
-				<div class="card p-4 w-60 shadow-xl -z-40" data-popup="features">
-					<DropNav />
-					<div class="arrow bg-surface-100-800-token" />
-				</div>
-			</div>
 			<svelte:fragment slot="trail">
-				<a href="tel:2318815282" class="btn variant-filled-primary"> Call Now! </a>
+				<div class="relative hidden lg:block">
+					<!-- trigger -->
+					<button
+						class="btn variant-outline-primary hover:variant-soft-primary"
+						use:popup={{ event: 'click', target: 'features' }}
+					>
+						<span>Get Started</span>
+						<Icon name="chevron-down" class="shrink-0 h-4 w-4 ml-2" />
+					</button>
+					<!-- popup -->
+					<div class="card p-4 w-60 shadow-xl -z-40" data-popup="features">
+						<DropNav />
+						<div class="arrow bg-surface-100-800-token" />
+					</div>
+				</div>
+				<a href="tel:2318815282" class="btn variant-filled-primary"
+					><Icon name="phone" class="shrink-0 h-4 w-4" />&nbsp; Call Now!
+				</a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>

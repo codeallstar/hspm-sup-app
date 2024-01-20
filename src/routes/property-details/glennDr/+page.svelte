@@ -3,10 +3,11 @@
 	import { Tab, TabGroup } from '@skeletonlabs/skeleton';
 	let tabSet = 0;
 
-	import photo1 from '$lib/images/properties/rental1/002_img9669.jpg';
-	import photo2 from '$lib/images/properties/rental1/003_img9639.jpg';
-	import photo3 from '$lib/images/properties/rental1/004_img9633.jpg';
-	import photo4 from '$lib/images/properties/rental1/005_img9637.jpg';
+	import photo1 from '$lib/images/properties/glenndr/photo1.jpg';
+	import photo2 from '$lib/images/properties/glenndr/photo2.jpg';
+	import photo3 from '$lib/images/properties/glenndr/photo3.jpg';
+	import photo4 from '$lib/images/properties/glenndr/photo4.jpg';
+	import photo5 from '$lib/images/properties/glenndr/photo5.jpg';
 
 	import { Icon } from 'svelte-materialdesign-icons';
 </script>
@@ -18,12 +19,12 @@
 			<img class="hidden md:block" src={photo2} alt="" />
 			<img class="hidden md:block md:col-start-3 md:row-start-2" src={photo3} alt="" />
 			<img class="hidden lg:block" src={photo4} alt="" />
-			<img class="hidden lg:block" src={photo1} alt="" />
+			<img class="hidden lg:block" src={photo5} alt="" />
 		</section>
 		<div class="sm:order-first m-2">
-			<h2 class="text-sm title-font tracking-widest">Second St - Harbor Springs</h2>
+			<h2 class="text-sm title-font tracking-widest">Lake Living - Harbor Springs</h2>
 			<h1 class="text-3xl title-font font-medium mb-4">
-				Beautiful downtown Harbor Springs home. Walking distance to everything!
+				Stunning view. Private Lake Michigan access!
 			</h1>
 			<div class="divider md:hidden" />
 		</div>
@@ -31,10 +32,10 @@
 	<div class="grid gap-2 sm:grid-cols-2">
 		<section class="text-center flex my-4">
 			<p class="text-xl">
-				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 4 Bedrooms |
-				<Icon name="bathtub" class="shrink-0 h-4 w-4 inline-flex" />5 Baths |
-				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 5 Beds |
-				<Icon name="sleep" class="shrink-0 h-4 w-4 inline-flex" /> Sleeps 10
+				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 3 Bedrooms |
+				<Icon name="bathtub" class="shrink-0 h-4 w-4 inline-flex" /> 2 Baths |
+				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 3 Beds |
+				<Icon name="sleep" class="shrink-0 h-4 w-4 inline-flex" /> Sleeps 6
 			</p>
 		</section>
 		<hr />
@@ -48,55 +49,39 @@
 				{#if tabSet === 0}
 					<section class="space-y-4">
 						<p>
-							This spacious home is downtown Harbor Springs, and a short walk or bike ride to
-							shopping, lake Michigan and walking trials.
-						</p>
-
-						<p>
-							This home has two master bedrooms, one on the main floor, and one on the second level.
-							The second level also has two more bedrooms, and a jack and jill bathroom.
+							This Harbor Springs retreat is located walking distance or bike ride from town and
+							right on Lake Michigan. This home has private lake access and a large private yard.
 						</p>
 
 						<p>
 							Enjoy your meals in the formal dining room, or out on the back deck where you can do
 							some grilling and utilize the large private yard.
 						</p>
-
-						<p>
-							Venture down to the finished basement for a game of Ping-Pong, another comfortable
-							living room space, bar, full bathroom, and a bonus room that is equipped with one twin
-							bed and one full bed.
-						</p>
 					</section>
 				{:else if tabSet === 1}
 					<section class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
-						<span class="badge variant-outline-primary">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
+						<span class="badge variant-filled">More Info Coming Soon</span>
 					</section>
 				{:else if tabSet === 2}
-					(tab panel 3 contents)
+					<section class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+						<span class="badge variant-filled">More Info Coming Soon</span>
+					</section>
+				{:else}
+					<p>Something went wrong...</p>
 				{/if}
 			</svelte:fragment>
 		</TabGroup>
 
 		<section class="sm:grid-col-start-2 sm:col-start-2">
 			<div class="card mb-2">
-				<header class="card-header">Price/Date Form</header>
-				<section class="p-4">(content)</section>
-				<footer class="card-footer">(footer)</footer>
+				<header class="card-header">Price/Date</header>
+				<section class="p-4">Call 231.881.5282</section>
+				<footer class="card-footer">For More Information</footer>
 			</div>
 			<div class="card">
 				<header class="card-header">Availability</header>
-				<section class="p-4">(content)</section>
-				<footer class="card-footer">(footer)</footer>
+				<section class="p-4">Call 231.881.5282</section>
+				<footer class="card-footer">For Availability</footer>
 			</div>
 		</section>
 	</div>

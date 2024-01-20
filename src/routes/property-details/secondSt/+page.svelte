@@ -70,33 +70,24 @@
 					</section>
 				{:else if tabSet === 1}
 					<section class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
-						<span class="badge variant-outline-primary">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
-						<span class="badge variant-filled">Badge</span>
+						<span class="badge variant-filled">Coming Soon...</span>
 					</section>
 				{:else if tabSet === 2}
-					(tab panel 3 contents)
+					More information coming soon...
 				{/if}
 			</svelte:fragment>
 		</TabGroup>
 
 		<section class="sm:grid-col-start-2 sm:col-start-2">
 			<div class="card mb-2">
-				<header class="card-header">Price/Date Form</header>
-				<section class="p-4">(content)</section>
-				<footer class="card-footer">(footer)</footer>
+				<header class="card-header">Price/Date</header>
+				<section class="p-4">Call 231.881.5282</section>
+				<footer class="card-footer">For More Information</footer>
 			</div>
 			<div class="card">
 				<header class="card-header">Availability</header>
-				<section class="p-4">(content)</section>
-				<footer class="card-footer">(footer)</footer>
+				<section class="p-4">Call 231.881.5282</section>
+				<footer class="card-footer">For Availability</footer>
 			</div>
 		</section>
 	</div>

@@ -41,7 +41,7 @@
 		<header><img src={idywilde} alt="Idywilde Rental House" /></header>
 		<div class="p-4 space-y-4">
 			<h2 class="">
-				Idylwilde Dr - Harbor Springs
+				Beach Access - Harbor Springs
 				<div class="badge variant-filled">Lake Access</div>
 			</h2>
 			<article>
@@ -64,7 +64,7 @@
 			</div>
 			<hr class="opacity-50" />
 			<footer class="flex justify-end mt-4">
-				<a href="/property-details" class="btn variant-filled-primary">More Info</a>
+				<a href="/property-details/idywildeDr" class="btn variant-filled-primary">More Info</a>
 			</footer>
 		</div>
 	</div>
@@ -72,7 +72,7 @@
 		<header><img src={glenDrive} alt="House" /></header>
 		<div class="p-4 space-y-4">
 			<h2 class="">
-				Lake Living
+				Lake Living - Harbor Springs
 				<div class="badge variant-filled">Private Beach Access</div>
 			</h2>
 			<article>
@@ -95,7 +95,7 @@
 			</div>
 			<hr class="opacity-50" />
 			<footer class="flex justify-end mt-4">
-				<a href="/property-details" class="btn variant-filled-primary">More Info</a>
+				<a href="/property-details/glennDr" class="btn variant-filled-primary">More Info</a>
 			</footer>
 		</div>
 	</div>

@@ -23,7 +23,7 @@
 					Harbor Springs area vacation rentals where <br /><span>nature meets luxury.</span>
 				</h1>
 				<a href="/all-properties" class="btn variant-ringed-primary text-xl">
-					Get Started&nbsp;<Icon name="arrow-right-circle" class="shrink-0 h-4 w-4" /></a
+					All Properties&nbsp;<Icon name="arrow-right-circle" class="shrink-0 h-4 w-4" /></a
 				>
 			</div>
 		</div>

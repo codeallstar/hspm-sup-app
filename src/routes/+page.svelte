@@ -2,7 +2,6 @@
 	import { Icon } from 'svelte-materialdesign-icons';
 
 	import hero from '$lib/images/heroplaceholder.jpg';
-	import house1 from '$lib/images/houseplaceholder1.jpg';
 	import secondSt from '$lib/images/properties/rental1/002_img9669.jpg';
 	import idywilde from '$lib/images/properties/idywilde/002_img4468.jpg';
 	import glenDrive from '$lib/images/properties/glenndr/viewbeachglen.jpg';

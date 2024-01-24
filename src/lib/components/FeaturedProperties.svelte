@@ -46,8 +46,8 @@
 			</h2>
 			<article>
 				<p>
-					Beautiful Harbor Springs home located in a historic association with 1/2 mile of private
-					association Lake Michigan beach. Downtown Harbor Springs is just a short drive away.
+					This brand new spacious home boasts a very large and relaxing layout with two master
+					bedrooms, and a large bunk room to comfortably sleep 8.
 				</p>
 			</article>
 			<hr class="opacity-50" />
@@ -77,8 +77,8 @@
 			</h2>
 			<article>
 				<p>
-					This Harbor Springs retreat is located walking distance or bike ride from town and right
-					on Lake Michigan. This home has private lake access and a large private yard.
+					Situated right on Lake Michigan, this amazing home is just a short bike ride or walk to
+					downtown shopping, restaurants and marina's.
 				</p>
 			</article>
 			<hr class="opacity-50" />

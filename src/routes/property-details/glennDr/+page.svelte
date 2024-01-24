@@ -49,13 +49,20 @@
 				{#if tabSet === 0}
 					<section class="space-y-4">
 						<p>
-							This Harbor Springs retreat is located walking distance or bike ride from town and
-							right on Lake Michigan. This home has private lake access and a large private yard.
+							Situated right on Lake Michigan, this amazing home is just a short bike ride or walk
+							to downtown shopping, restaurants and marina's.
 						</p>
-
 						<p>
-							Enjoy your meals in the formal dining room, or out on the back deck where you can do
-							some grilling and utilize the large private yard.
+							Utilize the very large private yard and outdoor dining, grilling with private lake
+							access.
+						</p>
+						<p>
+							There are two separate living rooms to enjoy, and a spacious kitchen perfect for
+							entertaining, with a formal dining table nearby.
+						</p>
+						<p>
+							This is the perfect home for the ultimate relaxing lake vacation you've been dreaming
+							of.
 						</p>
 					</section>
 				{:else if tabSet === 1}

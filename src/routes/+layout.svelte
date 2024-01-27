@@ -24,6 +24,7 @@
 	function drawerOpen(): void {
 		drawerStore.open({});
 	}
+
 	// Logo
 	import logo from '$lib/images/HarborsidePropertyManagement_Logo_CLR.png';
 	import { Icon } from 'svelte-materialdesign-icons';

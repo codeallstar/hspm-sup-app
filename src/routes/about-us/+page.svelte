@@ -2,7 +2,6 @@
 	import { Icon } from 'svelte-materialdesign-icons';
 
 	import hero from '$lib/images/hero_harborsprings.jpg';
-	import FeaturedProperties from '$lib/components/FeaturedProperties.svelte';
 	// Logo
 	import Logo from '$lib/images/HarborsidePropertyManagement_Logo_Only.png';
 </script>

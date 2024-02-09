@@ -12,7 +12,7 @@
 	<Splide
 		options={{ rewind: true }}
 		aria-label="Image Slider"
-		class="container max-w-screen-xl mx-auto max-h-screen"
+		class="container max-w-screen-xl mx-auto"
 	>
 		{#each photos as photo}
 			<SplideSlide>

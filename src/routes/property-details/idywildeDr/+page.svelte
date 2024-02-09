@@ -14,12 +14,18 @@
 
 <div class="wrapper container sm:mx-auto">
 	<div class="grid sm:gap-2 sm:mt-2">
-		<section class="grid md:grid-cols-3 lg:grid-cols-4 sm:gap-2">
+		<section class="grid md:grid-cols-3 lg:grid-cols-4 sm:gap-2 relative">
 			<img class="md:col-span-2 md:row-start-1 md:row-span-2" src={photo1} alt="" />
 			<img class="hidden md:block" src={photo2} alt="" />
 			<img class="hidden md:block md:col-start-3 md:row-start-2" src={photo3} alt="" />
 			<img class="hidden lg:block" src={photo4} alt="" />
 			<img class="hidden lg:block" src={photo5} alt="" />
+			<a
+				href="idywildeDr/photos"
+				class="btn-md variant-filled absolute bottom-1 right-1 text-white cursor-pointer flex"
+				><span><Icon name="image-multiple" class="shrink-0 h-4 w-4 inline-flex" /></span>
+				<span class="inline-flex ml-1">More Photos</span>
+			</a>
 		</section>
 		<div class="sm:order-first m-2">
 			<h2 class="text-sm title-font tracking-widest">Beach Access - Harbor Springs</h2>

@@ -21,7 +21,7 @@
 			<img class="hidden lg:block" src={photo4} alt="" />
 			<img class="hidden lg:block" src={photo5} alt="" />
 			<a
-				href="idywildeDr/photos"
+				href="/property-details/idywildeDr/photos"
 				class="btn-md variant-filled absolute bottom-1 right-1 text-white cursor-pointer flex"
 				><span><Icon name="image-multiple" class="shrink-0 h-4 w-4 inline-flex" /></span>
 				<span class="inline-flex ml-1">More Photos</span>

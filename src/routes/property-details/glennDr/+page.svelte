@@ -143,7 +143,7 @@
 			</ul>
 			<ul>
 				<li>Children allowed: ages 0-17</li>
-				<li>No pets allowed</li>
+				<li>Pets allowed</li>
 			</ul>
 			<ul>
 				<li>No events allowed</li>

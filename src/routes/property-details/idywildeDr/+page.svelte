@@ -41,7 +41,7 @@
 			<p class="text-xl">
 				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 3 Bedrooms |
 				<Icon name="bathtub" class="shrink-0 h-4 w-4 inline-flex" />5 Baths |
-				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 4 Beds |
+				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 5 Beds |
 				<Icon name="sleep" class="shrink-0 h-4 w-4 inline-flex" /> Sleeps 8
 			</p>
 		</section>
@@ -77,6 +77,13 @@
 						<span class="badge variant-filled">Coming Soon!</span>
 					</section>
 				{:else if tabSet === 2}
+					<ul>
+						<li>There are 5 beds total</li>
+						<li>2 Kings</li>
+						<li>1 Queen</li>
+						<li>2 Twin XLs</li>
+						<li>The queen and 2 twins are in the bunk room</li>
+					</ul>
 					More information coming soon!
 				{/if}
 			</svelte:fragment>

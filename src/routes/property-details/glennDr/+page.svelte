@@ -41,7 +41,7 @@
 				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 3 Bedrooms |
 				<Icon name="bathtub" class="shrink-0 h-4 w-4 inline-flex" /> 2 Baths |
 				<Icon name="bed" class="shrink-0 h-4 w-4 inline-flex" /> 3 Beds |
-				<Icon name="sleep" class="shrink-0 h-4 w-4 inline-flex" /> Sleeps 6
+				<Icon name="sleep" class="shrink-0 h-4 w-4 inline-flex" /> Sleeps 7
 			</p>
 		</section>
 		<hr />
@@ -73,10 +73,17 @@
 					</section>
 				{:else if tabSet === 1}
 					<section class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+						<p>Allows Dogs</p>
 						<span class="badge variant-filled">More Info Coming Soon</span>
 					</section>
 				{:else if tabSet === 2}
 					<section class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+						<ul>
+							<li>1 king</li>
+							<li>2 twins</li>
+							<li>1 daybed</li>
+							<li>1 pullout couch</li>
+						</ul>
 						<span class="badge variant-filled">More Info Coming Soon</span>
 					</section>
 				{:else}

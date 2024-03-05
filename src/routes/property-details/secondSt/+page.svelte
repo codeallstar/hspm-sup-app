@@ -130,7 +130,7 @@
 				<li><span class="font-bold">Check out</span> before 11:00am</li>
 			</ul>
 			<ul>
-				<li>Maximum overnight guests: 10</li>
+				<li>Maximum overnight guests: 8</li>
 				<li>Minimum age to rent: 30</li>
 			</ul>
 			<ul>

@@ -80,8 +80,7 @@
 					<section class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
 						<ul>
 							<li>1 king</li>
-							<li>2 twins</li>
-							<li>1 daybed</li>
+							<li>3 twins</li>
 							<li>1 pullout couch</li>
 						</ul>
 						<span class="badge variant-filled">More Info Coming Soon</span>
@@ -138,7 +137,7 @@
 				<li><span class="font-bold">Check out</span> before 11:00am</li>
 			</ul>
 			<ul>
-				<li>Maximum overnight guests: 10</li>
+				<li>Maximum overnight guests: 8</li>
 				<li>Minimum age to rent: 30</li>
 			</ul>
 			<ul>
